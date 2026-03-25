@@ -8,10 +8,12 @@ export type Albums = {
   image: string;
   rating: number;
   description: string;
+  price: string;
 };
 
 export type Cardtypes = {
   imageUrl: string;
   title: string;
   url: string;
+  price: string;
 };

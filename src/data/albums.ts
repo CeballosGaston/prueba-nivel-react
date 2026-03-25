@@ -1,6 +1,5 @@
 import type { Albums } from "../types";
 
-
 export const albums: Albums[] = [
   {
     id: "1",
@@ -12,6 +11,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/ella/200",
     rating: 5,
     description: "One of the greatest jazz vocalists of all time",
+    price: "130",
   },
   {
     id: "2",
@@ -23,6 +23,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/louis/200",
     rating: 5,
     description: "Iconic trumpeter and singer",
+    price: "130",
   },
   {
     id: "3",
@@ -34,6 +35,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/billie/200",
     rating: 5,
     description: "Legendary voice with deep emotion",
+    price: "130",
   },
   {
     id: "4",
@@ -45,6 +47,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/sinatra/200",
     rating: 5,
     description: "The Voice of classic jazz and pop",
+    price: "130",
   },
   {
     id: "5",
@@ -56,6 +59,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/nina/200",
     rating: 5,
     description: "Powerful and expressive performer",
+    price: "130",
   },
   {
     id: "6",
@@ -67,6 +71,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/sarah/200",
     rating: 5,
     description: "Rich tone and vocal control",
+    price: "130",
   },
   {
     id: "7",
@@ -78,6 +83,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/nat/200",
     rating: 5,
     description: "Smooth voice and piano style",
+    price: "130",
   },
   {
     id: "8",
@@ -89,6 +95,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/chet/200",
     rating: 4,
     description: "Cool jazz icon with soft vocals",
+    price: "130",
   },
   {
     id: "9",
@@ -100,6 +107,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/duke/200",
     rating: 5,
     description: "Composer and bandleader legend",
+    price: "130",
   },
   {
     id: "10",
@@ -111,6 +119,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/tony/200",
     rating: 5,
     description: "Classic jazz and pop singer",
+    price: "130",
   },
   {
     id: "11",
@@ -122,6 +131,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/peggy/200",
     rating: 4,
     description: "Sultry and smooth vocal style",
+    price: "130",
   },
   {
     id: "12",
@@ -133,6 +143,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/dinah/200",
     rating: 5,
     description: "Queen of the Blues",
+    price: "130",
   },
   {
     id: "13",
@@ -144,6 +155,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/mel/200",
     rating: 4,
     description: "Velvet voice jazz singer",
+    price: "130",
   },
   {
     id: "14",
@@ -155,6 +167,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/anita/200",
     rating: 4,
     description: "Unique rhythmic phrasing",
+    price: "130",
   },
   {
     id: "15",
@@ -166,6 +179,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/betty/200",
     rating: 4,
     description: "Innovative jazz improviser",
+    price: "130",
   },
   {
     id: "16",
@@ -177,6 +191,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/cassandra/200",
     rating: 4,
     description: "Modern jazz with blues influence",
+    price: "130",
   },
   {
     id: "17",
@@ -188,6 +203,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/diana/200",
     rating: 5,
     description: "Contemporary jazz pianist and singer",
+    price: "130",
   },
   {
     id: "18",
@@ -199,6 +215,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/jamie/200",
     rating: 4,
     description: "Energetic modern jazz performer",
+    price: "130",
   },
   {
     id: "19",
@@ -210,6 +227,7 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/gregory/200",
     rating: 5,
     description: "Soulful modern jazz voice",
+    price: "130",
   },
   {
     id: "20",
@@ -221,6 +239,6 @@ export const albums: Albums[] = [
     image: "https://picsum.photos/seed/norah/200",
     rating: 5,
     description: "Smooth blend of jazz and pop",
+    price: "130",
   },
 ];
-

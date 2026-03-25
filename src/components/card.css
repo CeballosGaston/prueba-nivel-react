@@ -1,0 +1,43 @@
+.card {
+  width: 260px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #c9e172;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card a {
+  padding: 12px;
+  display: block;
+}
+
+.card a::first-line {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card p {
+  padding: 0 12px 12px;
+  margin: 0;
+  font-weight: bold;
+  color: #31965b;
+  font-size: 1rem;
+}
