@@ -9,3 +9,9 @@ export type Albums = {
   rating: number;
   description: string;
 };
+
+export type Cardtypes = {
+  imageUrl: string;
+  title: string;
+  url: string;
+};

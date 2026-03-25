@@ -1,5 +1,6 @@
 import { albums } from "../../data/albums";
-import { Link } from "react-router-dom";
+
+import Card from "../../components/Card";
 
 const Products = () => {
   return (
@@ -8,7 +9,11 @@ const Products = () => {
       <ul>
         {albums.map((a) => (
           <li key={a.id}>
-            <Link to={`/products/${a.id}`}>{a.album}</Link>
+            <Card
+              imageUrl={a.image}
+              title={a.album}
+              url={`/products/${a.id}`}
+            />
           </li>
         ))}
       </ul>
