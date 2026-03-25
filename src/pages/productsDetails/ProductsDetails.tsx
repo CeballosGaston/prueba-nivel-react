@@ -18,6 +18,7 @@ const ProductsDetails = () => {
         <h2>Song: {album.song}</h2>
         <h2>Year: {album.year}</h2>
         <h2>Description: {album.description}</h2>
+        <img src={album.image} alt="" />
       </div>
       <button onClick={() => navigate("/")}>Come back to Products</button>
     </div>
